@@ -5,6 +5,13 @@ Este proyecto tiene como objetivo practicar el uso de Node.js y Express.js, y co
 Ejercicio 1
 En este ejercicio, se debe crear un servidor utilizando Express.js y mostrar un mensaje indicando que el servidor se ha levantado en el puerto especificado.
 
+const express = require('express');
+const app = express();
+
+app.listen("8080", () => {
+  console.log("Servidor levantado en el puerto 8080");
+});`
+
 Ejercicio 2
 En este ejercicio, se debe crear un servidor de Express.js y manejar varias rutas diferentes. Cada ruta tendrá un método HTTP diferente y una acción específica.
 
