@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 
 app.use(bodyParser.json());
 
-// Datos de ejemplo
+// Datos
 const productos = [
   { id: 1, nombre: 'Taza de Harry Potter', precio: 300 },
   { id: 2, nombre: 'FIFA 22 PS5', precio: 1000 },
